@@ -2,10 +2,87 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>TEMPLATE</title>
+    <title>Superhero</title>
+    <style>
+      img{
+        height:100px;
+      }
+      table, th{
+        border:3px solid black;
+        border-collapse: collapse;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      td{
+        border:1px dotted black;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+      }
+      #headerrow{
+        background-color: gray;
+      }
+      
+    </style>
   </head>
   <body>
-    <h1>Page Title</h1>
+    <h1>Favorite Superhero</h1>
+    <table>
+      <tr id="headerrow">
+        <th>Name</th>
+        <th>Alias</th>
+        <th>Image</th>
+        <th>Superpower</th>
+        <th>Weakness</th>
+      </tr>
+      <tr>
+        <th>Batman</th>
+        <td>Bruce Wayne</td>
+        <td><a href = "images/batman.jpg"><img src="images/batman.jpg" alt="Batman Picture"></a></td>
+        <td>Rich</td>
+        <td>Day time</td>
+      </tr>
+      <tr>
+        <th>Spider-man</th>
+        <td>Peter Parker</td>
+        <td><a href="images/spiderman.png"><img src="images/spiderman.png" alt="Spider-man Picture"></a></td>
+        <td>
+          <ul>
+            <li>Spidey Sense</li>
+            <li>Super Strength</li>
+            <li>Shoot Webs</li>
+          </ul>
+        </td>
+        <td>Enthyl Chloride</td>
+      </tr>
+      <tr>
+        <th>Super-man</th>
+        <td>Clark Kent</td>
+        <td><a href="images/Supermanflying.png"><img src="images/Supermanflying.png" alt="Super-man Picture"></a></td>
+        <td>
+          <ul>
+            <li>Flight</li>
+            <li>Super Stength</li>
+            <li>Laser</li>
+            <li>Ice Breath</li>
+          </ul>
+        </td>
+        <td>Kriptonite</td>
+      </tr>
+      <tr>
+        <th>El Padrino</th>
+        <td>Carlos Belcast</td>
+        <td><a href="images/download.jpg"><img src="images/download.jpg" alt="Padrino Picture"></a></td>
+        <td>
+          <ul>
+            <li>Strong</li>
+            <li>Aesthetic</li>
+            <li>Guapo</li>
+          </ul>
+        </td>
+        <td>Rest Days</td>
+      </tr>
+    </table>
   </body>
 
 </html>
